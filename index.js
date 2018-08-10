@@ -23,5 +23,14 @@ function dec(n){
 }
 
 function makeInt(n){
-  return 
+  if(n == NaN){
+    return 0
+  }
+  return Math.parseInt(n)
+}
+function preserveDecimal(n){
+  if(n === NaN){
+    return 0.0;
+  }
+  return Math.parseFloat(n)
 }

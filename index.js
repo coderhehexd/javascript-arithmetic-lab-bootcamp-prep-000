@@ -26,7 +26,7 @@ function makeInt(n){
   if(n == NaN){
     return 0
   }
-  return Math.parseInt(n)
+  return Math.parseInt(n,10)
 }
 function preserveDecimal(n){
   if(n === NaN){
